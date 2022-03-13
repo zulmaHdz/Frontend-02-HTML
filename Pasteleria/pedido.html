@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+</head>
+
+<body>
+    <!--Inicio de la cabecera-->
+    <header id="header">
+        <div id="logotipo">
+            <img src="img/logo.png" alt="Duranti">
+        </div>
+        <h1>
+            <a href="Pasteleria.html">Duranti, Pastelería italiana</a>
+        </h1>
+    </header>
+    <!--Fin de la cabecera-->
+    <!--Menú de navegación-->
+    <nav id="nav">
+        <ul>
+            <li><a href="Pasteleria.html">Inicio</a></li>
+            <li><a href="pasteles.html">Pasteles</a></li>
+            <li><a href="pedido.html">Pedido</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="pastelero.html">Pastelero</a></li>
+        </ul>
+    </nav>
+
+    <!--Información contacto-->
+    <div id="sections">
+
+        <section id="frontend">
+            <span class="stickers">
+                <img class="stickerOne" src="img/scotch.png" alt="pegatina"/>
+                <img class="stickerTwo" src="img/scotch.png" alt="pegatina"/>
+            </span>
+            <h2 class="titulo">Realiza tu pedido</h2>
+            <article class="article">
+
+
+                <div class="row">
+                    <div class="col">
+                    </div class="formulario1">
+                    <div>
+                        <form>
+                            <label id="nombrelabel1" for="name">Nombre:</label>
+                            <input id="cajatexto1" type="text" id="name">
+                            <br>
+                            <br>
+                            <label id="nombrelabel2" for="email">Email:</label>
+                            <input id="cajatexto2" type="email" id="email">
+                            <br>
+                            <br>
+                            <label id="nombrelabel3" for="phone">Telefono:</label>
+                            <input id="cajatexto3" type="text" id="phone">
+                            <br>
+                            <br>
+                            <div class="combinar-selectores">
+                                <select id="flavor" name="flavor">
+                                <option >Chocolate</option>
+                                <option >Vainilla</option>
+                                <option >Fresa</option>
+                                <option >Durazno</option>
+                            </select>
+                                <select id="adorno" name="adorno">
+                                <option>Caja de regalo</option>
+                                <option value="vainilla">Paleta</option>
+                                <option value="Fresa">Fruta</option>
+                                <option value="Fresa">Velas</option>
+                            </select>
+                                <br>
+                                <br>
+                            </div>
+                            <label id="nombrelabel4" for="message">Descripción:</label>
+                            <textarea name="message" id="message" cols="30" rows="10" placeholder="Descripción"></textarea>
+                            <br>
+                            <br>
+                            <button id="btnpedido">Hacer pedido</button>
+                        </form>
+                    </div>
+                </div>
+
+
+            </article>
+        </section>
+    </div>
+    </div>
+
+
+    <!--Footer-->
+    <div class="clearfix"></div>
+
+    <footer id="footer">
+        <p>&copy; Desarrollado por Zulma Vélez</p>
+
+    </footer>
+
+</body>
+
+</html>

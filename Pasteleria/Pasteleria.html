@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pastelería</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+</head>
+
+<body>
+
+    <!--Inicio de la cabecera-->
+    <header id="header">
+        <div id="logotipo">
+            <img src="img/logo.png" alt="Duranti">
+        </div>
+        <h1>
+            <a href="Pasteleria.html">Duranti, Pastelería italiana</a>
+        </h1>
+    </header>
+    <!--Fin de la cabecera-->
+    <!--Menú de navegación-->
+    <nav id="nav">
+        <ul>
+            <li><a href="Pasteleria.html">Inicio</a></li>
+            <li><a href="pasteles.html">Pasteles</a></li>
+            <li><a href="pedido.html">Pedido</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="pastelero.html">Pastelero</a></li>
+        </ul>
+
+    </nav>
+
+    <div class="slide">
+        <div class="slide-inner">
+            <input class="slide-open" type="radio" id="slide-1" name="slide" aria-hidden="true" hidden="" checked="checked">
+            <div class="slide-item">
+                <img src="img/Carrusel/Carruselimg1.jpg" alt="pastelchocolate">
+            </div>
+            <input class="slide-open" type="radio" id="slide-2" name="slide" aria-hidden="true" hidden="">
+            <div class="slide-item">
+                <img src="img/Carrusel/helado1.jpg" alt="Helado">
+            </div>
+            <input class="slide-open" type="radio" id="slide-3" name="slide" aria-hidden="true" hidden="">
+            <div class="slide-item">
+                <img src="img/Carrusel/pasteles2.jpg" alt="Pateles">
+            </div>
+            <label for="slide-3" class="slide-control prev control-1">‹</label>
+            <label for="slide-2" class="slide-control next control-1">›</label>
+            <label for="slide-1" class="slide-control prev control-2">‹</label>
+            <label for="slide-3" class="slide-control next control-2">›</label>
+            <label for="slide-2" class="slide-control prev control-3">‹</label>
+            <label for="slide-1" class="slide-control next control-3">›</label>
+            <ol class="slide-indicador">
+                <li>
+                    <label for="slide-1" class="slide-circulo">•</label>
+                </li>
+                <li>
+                    <label for="slide-2" class="slide-circulo">•</label>
+                </li>
+                <li>
+                    <label for="slide-3" class="slide-circulo">•</label>
+                </li>
+            </ol>
+        </div>
+    </div>
+    <br>
+    <section class="pasteles" id="pasteles">
+        <div class="row">
+            <h1>Nuestros productos</h1>
+            <div class="container-cards-pasteles">
+                <div class="card">
+                    <img src="img/productos/pastel1.jpg" alt="pastel1">
+                    <div class="body">
+                        <div class="name">Pasteles</div>
+                        <button class="verProducto">Ver pasteles</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/productos/galletas.jpg" alt="galletas">
+                    <div class="body">
+                        <div class="name">Galletas</div>
+                        <button class="verProducto">Ver galletas</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/productos/gelatina1.jpg" alt="gelatina1">
+                    <div class="body">
+                        <div class="name">Gelatinas</div>
+                        <button class="verProducto">Ver gelatinas</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Footer-->
+    <div class="clearfix"></div>
+
+    <footer id="footer">
+        <p>&copy; Desarrollado por Zulma Vélez</p>
+
+    </footer>
+</body>
+
+
+
+</html>
